@@ -15,6 +15,11 @@
     </div>
 
     <div class="form-group">
+        {!! Form::label('password', 'Password:') !!}
+        {!! Form::password('password', ['class'=>'form-control']) !!}
+    </div>
+
+    <div class="form-group">
         {!! Form::label('role_id', 'Role:') !!}
         {!! Form::select('role_id', ['' => 'Choose Option'] + $roles, null, ['class'=>'form-control']) !!}
     </div>
@@ -29,5 +34,9 @@
     </div>
 
     {!! Form::close() !!}
+
+    @include('includes.includes')
+
+
 
 @stop
