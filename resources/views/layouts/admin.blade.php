@@ -67,7 +67,7 @@
                     <li><a href="#"><i class="fa fa-gear fa-fw"></i> Settings</a>
                     </li>
                     <li class="divider"></li>
-                    <li><a href="login.html"><i class="fa fa-sign-out fa-fw"></i> Logout</a>
+                    <li><a href="#"><i class="fa fa-sign-out fa-fw"></i> Logout</a>
                     </li>
                 </ul>
                 <!-- /.dropdown-user -->
@@ -97,10 +97,10 @@
                         <a href="#"><i class="fa fa-wrench fa-fw"></i> Users<span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level">
                             <li>
-                                <a href="panels-wells.html">All Users</a>
+                                <a href="#">All Users</a>
                             </li>
                             <li>
-                                <a href="buttons.html">Create User</a>
+                                <a href="#">Create User</a>
                             </li>
                         </ul>
                         <!-- /.nav-second-level -->
@@ -112,7 +112,7 @@
                         <a href="#"><i class="fa fa-wrench fa-fw"></i> Posts<span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level">
                             <li>
-                                <a href="panels-wells.html">All Posts</a>
+                                <a href="#">All Posts</a>
                             </li>
                             <li>
                                 <a href="buttons.html">Create Post</a>
